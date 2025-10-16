@@ -1,0 +1,24 @@
+# LangChain for PDF loading, embeddings, and vectorstore
+langchain>=0.1.0
+
+# HuggingFace embeddings
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.1.0
+
+# BM25 retrieval
+rank_bm25>=0.2.1
+
+# Chroma vector store
+chromadb>=0.4.0
+
+# PDF loading
+PyPDF2>=3.0.0
+
+# Optional: for text processing
+numpy>=1.24.0
+
+# Fast API or Streamlit if you want to build a frontend (optional)
+streamlit>=1.30.0
+fastapi>=0.101.0
+uvicorn>=0.23.0
